@@ -10,3 +10,20 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.button-delete {
+    opacity: 0;
+}
+
+.button-delete:hover {
+    opacity: 1;
+    color: red;
+}
+
+.button-delete:active {
+    background-color: red;
+    color: white;
+}
+
+.todo-list:hover {
+    background-color: lightblue;
+}
